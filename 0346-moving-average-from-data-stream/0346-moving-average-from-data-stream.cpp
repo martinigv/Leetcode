@@ -2,6 +2,7 @@ class MovingAverage {
 public:
     deque<int> dq;
     int s;
+    stack<int> st;
     MovingAverage(int size) {
         s = size;
     }
@@ -12,8 +13,14 @@ public:
             dq.pop_front();
         }
         dq.push_back(val);
-        for (const int& value : dq) {
-            ans += value;
+        while(!dq.empty()) {
+            st.push(dq.front());
+            ans += dq.front();
+            dq.pop_front();
+        }
+        while(!st.empty()) {
+            dq.push_front(st.top());
+            st.pop();
         }
         int size = dq.size();
         return ans * 1.0 / size;
