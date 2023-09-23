@@ -9,11 +9,11 @@ public:
                 return false;
             if (s[i] != s[j]) {
                 count++;
-                if (s[i+1] == s[j] && isPalindrome(s, i+1, j)) {
+                if (isPalindrome(s, i+1, j)) {
                     i++;
                     continue;
                 } 
-                else if (s[i] == s[j-1] && isPalindrome(s, i, j-1)) {
+                else if (isPalindrome(s, i, j-1)) {
                     j--;
                     continue;
                 } 
