@@ -1,4 +1,4 @@
-class Solution {
+/* class Solution {
 public:
     vector<vector<int>> transBinary(vector<vector<int>>& prev,int n,int max) {
         // 0 1 01 11 001
@@ -45,5 +45,16 @@ public:
         v = transBinary(first, 1, n);
         ans = countOne(v);
         return ans;
+    }
+}; */
+
+// circulate bits directly
+class Solution {
+public:
+    vector<int> countBits(int num) {
+        vector<int> ret(num+1, 0);
+        for (int i = 1; i <= num; ++i)
+            ret[i] = ret[i&(i-1)] + 1;
+        return ret;
     }
 };
