@@ -49,12 +49,22 @@ public:
 }; */
 
 // circulate bits directly
-class Solution {
+/* class Solution {
 public:
     vector<int> countBits(int num) {
         vector<int> ret(num+1, 0);
         for (int i = 1; i <= num; ++i)
             ret[i] = ret[i&(i-1)] + 1;
         return ret;
+    }
+}; */
+class Solution {
+public:
+    vector<int> countBits(int n) {
+        std::vector<int> ans(n + 1, 0);
+        for (int i = 1; i <= n; ++i) {
+            ans[i] = ans[i >> 1] + (i & 1);
+        }
+        return ans;
     }
 };
