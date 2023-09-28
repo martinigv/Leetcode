@@ -5,18 +5,17 @@ public:
         int j = s.length()-1;
         int count{0};
         while (i < j) {
-            if (count > 1)
-                return false;
             if (s[i] != s[j]) {
-                count++;
+                if (count == 1)
+                    return false;
                 if (isPalindrome(s, i+1, j)) {
-                    i++;
-                    continue;
+                    count++;
+                    break;
                 } 
                 else if (isPalindrome(s, i, j-1)) {
-                    j--;
-                    continue;
-                } 
+                    count++;
+                    break;
+                }
                 else {
                     return false;
                 }
