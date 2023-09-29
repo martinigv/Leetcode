@@ -1,7 +1,7 @@
 class Solution {
 public:
     bool canPlaceFlowers(vector<int>& flowerbed, int n) {
-        /* int i = 0;
+        int i = 0;
         int fsize = flowerbed.size();
 
         while (i < fsize) {
@@ -12,7 +12,7 @@ public:
                 if (i < fsize - 1) 
                     flowerbed[i+1] = -1;
             }
-            i += 2;
+            i++;
         }
 
         i = 0;
@@ -31,9 +31,8 @@ public:
             }
         }
 
-        return (n <= 0);
-        */
-        int count = 0;
+        return n <= 0;
+        /*int count = 0;
         for (int i = 0; i < flowerbed.size() && count < n; i++) {
             if (flowerbed[i] == 0) {
                 // Get next and prev flower bed slot values. If i lies at the ends, the next and prev are considered as 0.
@@ -47,5 +46,6 @@ public:
         }
 
         return count == n;
+        */
     }
 }; 
