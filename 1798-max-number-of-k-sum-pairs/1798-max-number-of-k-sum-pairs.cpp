@@ -26,18 +26,18 @@ public:
 };*/
 class Solution {
 public:
-	int maxOperations(vector<int>& nums, int k) {
-		unordered_map<int, int> m;
-		int ans = 0;
-		for(int i = 0; i < nums.size(); i++){
-			if(m[k - nums[i]] > 0){
-			   m[k - nums[i]]--;
-				ans++;
-			}
-			else{
-				m[nums[i]]++;
-			}
-		}
-		return ans;
-	}
+    int maxOperations(vector<int>& nums, int k) {
+        // support variables
+        int res = 0;
+        unordered_map<int, int> m;
+        // main loop
+        for (int n: nums) {
+            if (m[k - n] > 0) {
+                m[k - n]--;
+                res++;
+            }
+            else m[n]++;
+        }
+        return res;
+    }
 };
