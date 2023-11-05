@@ -11,21 +11,33 @@
 class Solution {
 public:
     void reorderList(ListNode* head) {
-        if (!head->next || !head->next->next) {
-            return;
+        // in 1->2->3->4->5->6 find 4
+        ListNode* slow = head;
+        ListNode* fast = head;
+        while (fast && fast->next) {
+            slow = slow->next;
+            fast = fast->next->next;
         }
-        ListNode* h = head;
-        ListNode* t = head;
-
-        while (t->next->next)
-            t = t->next;
-
-        t->next->next = h->next;
-        ListNode* temp = t->next->next;
-        h->next = t->next;
-        t->next = nullptr;
-
-        reorderList(temp);
-        return;
+        // convert 1->2->3->4->5->6 into 1->2->3->4 and 6->5->4
+        ListNode* prev = nullptr;
+        ListNode* curr = slow;
+        ListNode* temp;
+        while (curr) {
+            temp = curr->next;
+            curr->next = prev;
+            prev = curr;
+            curr = temp;
+        }
+        // merge 1->2->3->4 and 6->5->4 into 1->6->2->5->3->4
+        ListNode* first = head;
+        ListNode* second = prev;
+        while (second->next) {
+            temp = first->next;
+            first->next = second;
+            first = temp;
+            temp = second->next;
+            second->next = first;
+            second = temp;
+        }
     }
 };
