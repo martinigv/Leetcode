@@ -6,6 +6,7 @@ study for solving leetcode problems
 |  |
 | ------- |
 | [1074-high-five](https://github.com/martinigv/Leetcode/tree/master/1074-high-five) |
+| [1127-last-stone-weight](https://github.com/martinigv/Leetcode/tree/master/1127-last-stone-weight) |
 # Hash Table
 |  |
 | ------- |
@@ -18,3 +19,4 @@ study for solving leetcode problems
 |  |
 | ------- |
 | [1074-high-five](https://github.com/martinigv/Leetcode/tree/master/1074-high-five) |
+| [1127-last-stone-weight](https://github.com/martinigv/Leetcode/tree/master/1127-last-stone-weight) |
