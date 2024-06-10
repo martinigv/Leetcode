@@ -40,3 +40,15 @@ study for solving leetcode problems
 |  |
 | ------- |
 | [0347-top-k-frequent-elements](https://github.com/martinigv/Leetcode/tree/master/0347-top-k-frequent-elements) |
+# Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/martinigv/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
+# Binary Search Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/martinigv/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
+# Binary Tree
+|  |
+| ------- |
+| [0783-search-in-a-binary-search-tree](https://github.com/martinigv/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
