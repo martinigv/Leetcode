@@ -55,3 +55,26 @@ study for solving leetcode problems
 | ------- |
 | [0450-delete-node-in-a-bst](https://github.com/martinigv/Leetcode/tree/master/0450-delete-node-in-a-bst) |
 | [0783-search-in-a-binary-search-tree](https://github.com/martinigv/Leetcode/tree/master/0783-search-in-a-binary-search-tree) |
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/martinigv/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/martinigv/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Sliding Window
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/martinigv/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/martinigv/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Monotonic Queue
+|  |
+| ------- |
+| [0239-sliding-window-maximum](https://github.com/martinigv/Leetcode/tree/master/0239-sliding-window-maximum) |
+<!---LeetCode Topics End-->
