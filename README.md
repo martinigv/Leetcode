@@ -62,6 +62,7 @@ study for solving leetcode problems
 | ------- |
 | [0042-trapping-rain-water](https://github.com/martinigv/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0239-sliding-window-maximum](https://github.com/martinigv/Leetcode/tree/master/0239-sliding-window-maximum) |
+| [1909-buildings-with-an-ocean-view](https://github.com/martinigv/Leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 ## Queue
 |  |
 | ------- |
@@ -90,8 +91,10 @@ study for solving leetcode problems
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/martinigv/Leetcode/tree/master/0042-trapping-rain-water) |
+| [1909-buildings-with-an-ocean-view](https://github.com/martinigv/Leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 ## Monotonic Stack
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/martinigv/Leetcode/tree/master/0042-trapping-rain-water) |
+| [1909-buildings-with-an-ocean-view](https://github.com/martinigv/Leetcode/tree/master/1909-buildings-with-an-ocean-view) |
 <!---LeetCode Topics End-->
