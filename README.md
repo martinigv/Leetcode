@@ -60,6 +60,7 @@ study for solving leetcode problems
 ## Array
 |  |
 | ------- |
+| [0042-trapping-rain-water](https://github.com/martinigv/Leetcode/tree/master/0042-trapping-rain-water) |
 | [0239-sliding-window-maximum](https://github.com/martinigv/Leetcode/tree/master/0239-sliding-window-maximum) |
 ## Queue
 |  |
@@ -77,4 +78,20 @@ study for solving leetcode problems
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/martinigv/Leetcode/tree/master/0239-sliding-window-maximum) |
+## Two Pointers
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/martinigv/Leetcode/tree/master/0042-trapping-rain-water) |
+## Dynamic Programming
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/martinigv/Leetcode/tree/master/0042-trapping-rain-water) |
+## Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/martinigv/Leetcode/tree/master/0042-trapping-rain-water) |
+## Monotonic Stack
+|  |
+| ------- |
+| [0042-trapping-rain-water](https://github.com/martinigv/Leetcode/tree/master/0042-trapping-rain-water) |
 <!---LeetCode Topics End-->
